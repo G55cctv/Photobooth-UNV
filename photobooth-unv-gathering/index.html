@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="description" content="Photobooth Resmi UNV | Uniarch Partner & Installer Gathering 2026 di Baraja Coffee Amphitheater Cirebon. Ambil foto dengan frame eksklusif dan unduh langsung via Google Drive." />
+  <meta name="keywords" content="UNV, Uniarch, GSS HUB, Ultima Sinergi Perkasa, CCTV, Cirebon, Photobooth, Gathering 2026" />
+  <meta name="theme-color" content="#0066CC" />
+  
+  <title>UNV | Uniarch Partner & Installer Gathering 2026 - Photobooth</title>
+
+  <!-- Google Fonts: Poppins & Baloo 2 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet Utama -->
+  <link rel="stylesheet" href="css/style.css?v=6" />
+
+  <!-- Favicon / App Icon Inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📸</text></svg>" />
+</head>
+<body>
+
+  <div id="app-root">
+
+    <!-- ===================================================================
+         1. LAYAR LANDING
+         =================================================================== -->
+    <section id="landing-screen" class="screen screen-active" aria-label="Halaman Utama Photobooth">
+      
+      <!-- Hero Biru Lengkung -->
+      <header class="hero-wrapper">
+        <!-- Bulatan & Badge Melayang -->
+        <span class="floating-badge badge-top-right">Baraja Cirebon ★</span>
+        <span class="floating-badge badge-left-mid">9 Okt 2026</span>
+        <div class="deco-circle deco-c1"></div>
+        <div class="deco-circle deco-c2"></div>
+
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span>🛡️ Security Next Level • UNV x Uniarch</span>
+          </div>
+
+          <h1 class="hero-title">UNV | Uniarch Partner &<br/>Installer Gathering 2026</h1>
+          
+          <p class="hero-subtitle">
+            Abadikan momen seru kebersamaan komunitas keamanan dan jaringan Cirebon dengan frame eksklusif!
+          </p>
+
+          <div class="hero-event-info">
+            <span class="info-chip">☕ Baraja Coffee Amphitheater</span>
+            <span class="info-chip">📅 Jumat, 9 Oktober 2026</span>
+            <span class="info-chip">🤝 GSS HUB x UNV x Uniarch x Ultima</span>
+          </div>
+
+          <button id="btn-start-photo" type="button" class="btn-pill hero-cta btn-pulse" aria-label="Mulai ambil foto" onclick="if(window.photoboothApp){ window.photoboothApp.showScreen('camera'); window.photoboothApp.camera.startCamera('user'); }">
+            <span>Mulai Foto Sekarang</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+              <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- Pita Ticker Marquee Berjalan -->
+      <div class="marquee-ribbon" aria-hidden="true">
+        <div class="marquee-content">
+          ★ GSS HUB ✦ SECURITY NEXT LEVEL ✦ UNV | UNIARCH PARTNER & INSTALLER GATHERING 2026 ✦ CCTV & IT SOLUTION ✦ BARAJA COFFEE AMPHITHEATER ✦ ULTIMA SINERGI PERKASA ✦ GSS HUB ✦ SECURITY NEXT LEVEL ✦ UNV | UNIARCH PARTNER & INSTALLER GATHERING 2026 ✦ CCTV & IT SOLUTION ✦ BARAJA COFFEE AMPHITHEATER ✦
+        </div>
+      </div>
+
+      <!-- Preview Kartu Fitur -->
+      <section class="features-section">
+        <h2 class="features-title">Mudah, Seru & Langsung Siap Share!</h2>
+        
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrap">📸</div>
+            <h3>Frame Resmi Gathering</h3>
+            <p>Foto otomatis dipasangkan dengan frame resmi UNV Gathering 2026 tanpa distorsi.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrap">🎨</div>
+            <h3>Stiker & Coretan Bebas</h3>
+            <p>Hiasi fotomu dengan filter jernih, stiker keamanan CCTV, teks badge, dan gambar warna-warni.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrap">📲</div>
+            <h3>Scan QR & Simpan Cloud</h3>
+            <p>Otomatis terunggah ke Google Drive. Scan kode QR untuk simpan langsung ke ponselmu.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Info -->
+      <footer class="landing-footer">
+        <p class="organizer-text">Diselenggarakan oleh:</p>
+        <p class="organizer-logos">Global Security Solution (GSS HUB) × UNV × Uniarch × Ultima Sinergi Perkasa</p>
+        <p style="margin-top: 8px; font-size: 0.85rem; color: var(--color-text-muted);">
+          Kontak: 0822 1833 3381 | IG: @cctvcenter.id | FB: cctvcirebon
+        </p>
+      </footer>
+    </section>
+
+
+    <!-- ===================================================================
+         2. LAYAR KAMERA (Live Preview 9:16 + Frame Overlay)
+         =================================================================== -->
+    <section id="camera-screen" class="screen" aria-label="Layar Kamera Live">
+      <div class="camera-container">
+        
+        <!-- Header Kontrol Kamera Bermerek Sesuai Tema Event -->
+        <div class="camera-top-bar">
+          <button id="btn-back-landing" type="button" class="icon-btn" title="Kembali ke Beranda" aria-label="Kembali ke Beranda">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+          </button>
+
+          <div class="camera-brand-badge">
+            <span class="brand-badge-dot"></span>
+            <span>UNV • UNIARCH GATHERING 2026</span>
+          </div>
+
+          <div class="camera-top-actions">
+            <!-- Timer Mode Toggle -->
+            <button id="btn-toggle-timer" type="button" class="icon-btn" title="Timer Hitungan Mundur" aria-label="Ganti Timer">
+              <span id="timer-badge-text" style="font-size: 0.78rem; font-weight: 700;">3s</span>
+            </button>
+
+            <!-- Mirror Toggle -->
+            <button id="btn-toggle-mirror" type="button" class="icon-btn active" title="Cermin (Mirror)" aria-label="Toggle Mode Cermin">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3v18M19 8l-7-5-7 5M19 16l-7 5-7-5"/>
+              </svg>
+            </button>
+
+            <!-- Switch Camera -->
+            <button id="btn-switch-cam" type="button" class="icon-btn" title="Ganti Kamera Depan/Belakang" aria-label="Ganti Kamera">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Viewport Kamera Rasio 9:16 dengan Efek Glow Tema -->
+        <div class="camera-viewport">
+          <video id="camera-video" playsinline autoplay muted></video>
+          
+          <!-- Layer Stiker Live Kamera (Di Atas Video, Di Bawah Frame) -->
+          <div id="camera-live-stickers" class="camera-live-stickers"></div>
+
+          <!-- Frame PNG Overlay Live -->
+          <img src="assets/frame.png" alt="Overlay Frame Gathering" class="camera-frame-overlay" />
+          
+          <!-- Countdown Animasi -->
+          <div id="camera-countdown" class="camera-countdown-overlay"></div>
+
+          <!-- Flash Layar Putih -->
+          <div id="camera-flash" class="camera-flash-layer"></div>
+        </div>
+
+        <!-- Drawer Fitur Filter & Stiker Langsung di Kamera -->
+        <div class="camera-live-tools-drawer">
+          <div class="live-tools-nav">
+            <button id="btn-cam-tab-filter" type="button" class="live-tool-tab active">
+              <span>✨ Filter Live</span>
+            </button>
+            <button id="btn-cam-tab-sticker" type="button" class="live-tool-tab">
+              <span>🎭 Pasang Stiker</span>
+            </button>
+            <button id="btn-cam-clear-live-stickers" type="button" class="live-tool-clear hidden" title="Hapus semua stiker live">
+              <span>🧹 Hapus Stiker</span>
+            </button>
+          </div>
+
+          <!-- Track Pilihan Filter Live Realtime -->
+          <div id="cam-filters-track" class="cam-live-track cam-filters-active">
+            <button type="button" class="cam-filter-chip active" data-filter="normal">
+              <span class="chip-dot"></span><span>Normal</span>
+            </button>
+            <button type="button" class="cam-filter-chip" data-filter="bright">
+              <span class="chip-dot" style="background: #FFE082;"></span><span>Cerah</span>
+            </button>
+            <button type="button" class="cam-filter-chip" data-filter="warm">
+              <span class="chip-dot" style="background: #FFB74D;"></span><span>Hangat</span>
+            </button>
+            <button type="button" class="cam-filter-chip" data-filter="cool">
+              <span class="chip-dot" style="background: #81D4FA;"></span><span>Dingin</span>
+            </button>
+            <button type="button" class="cam-filter-chip" data-filter="vintage">
+              <span class="chip-dot" style="background: #D7CCC8;"></span><span>Vintage</span>
+            </button>
+            <button type="button" class="cam-filter-chip" data-filter="bw">
+              <span class="chip-dot" style="background: #9E9E9E;"></span><span>B&W</span>
+            </button>
+            <button type="button" class="cam-filter-chip" data-filter="vivid">
+              <span class="chip-dot" style="background: #FF5252;"></span><span>Vivid</span>
+            </button>
+            <button type="button" class="cam-filter-chip" data-filter="fade">
+              <span class="chip-dot" style="background: #B0BEC5;"></span><span>Fade</span>
+            </button>
+          </div>
+
+          <!-- Track Pilihan Stiker Cepat Live -->
+          <div id="cam-stickers-track" class="cam-live-track hidden">
+            <!-- Diisi dinamis dengan stiker SVG dan emoji seru -->
+          </div>
+        </div>
+
+        <!-- Tombol Bawah Kamera Mewah Bertema Oranye & Gold -->
+        <div class="camera-bottom-controls">
+          <!-- Fallback Upload Galeri -->
+          <div class="cam-bottom-btn-wrap">
+            <button id="btn-gallery-upload" type="button" class="icon-btn cam-action-circle" title="Unggah dari Galeri" aria-label="Unggah foto dari galeri">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+            </button>
+            <span class="cam-btn-sublabel">Galeri</span>
+          </div>
+          <input type="file" id="camera-file-input" accept="image/*" class="hidden" />
+
+          <!-- Tombol Shutter Utama dengan Efek Ring Bercahaya -->
+          <div class="shutter-btn-wrapper">
+            <button id="btn-shutter" type="button" class="shutter-btn" aria-label="Ambil Foto">
+              <span class="shutter-btn-glow"></span>
+              <span class="shutter-btn-inner"></span>
+            </button>
+            <span class="shutter-timer-indicator">3s Timer</span>
+          </div>
+
+          <!-- Tombol Putar Kamera Depan/Belakang Cepat -->
+          <div class="cam-bottom-btn-wrap">
+            <button id="btn-quick-flip-cam" type="button" class="icon-btn cam-action-circle" title="Balik Kamera" aria-label="Balik Kamera">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 16v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4M4 8V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </button>
+            <span class="cam-btn-sublabel">Balik</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         3. LAYAR EDITOR KREASI (Filter, Stiker, Coretan)
+         =================================================================== -->
+    <section id="editor-screen" class="screen" aria-label="Layar Edit Kreasi Foto">
+      
+      <!-- Top Action Bar -->
+      <div class="editor-header">
+        <button id="btn-editor-retake" type="button" class="btn-pill btn-secondary" style="padding: 8px 16px; font-size: 0.88rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M1 4v6h6M23 20v-6h-6M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/>
+          </svg>
+          <span>Foto Ulang</span>
+        </button>
+
+        <span class="editor-header-title">Kreasikan Fotomu</span>
+
+        <button id="btn-editor-done" type="button" class="btn-pill btn-primary" style="padding: 8px 20px; font-size: 0.88rem;">
+          <span>Selesai</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Stage Utama Kanvas 9:16 -->
+      <div class="editor-main-stage">
+        <div id="canvas-viewport" class="canvas-viewport-wrap">
+          <canvas id="editor-canvas" width="1080" height="1920"></canvas>
+        </div>
+      </div>
+
+      <!-- Bar Alat & Tab Bawah -->
+      <div class="editor-bottom-bar">
+        <!-- Navigasi Tab -->
+        <div class="editor-tabs" role="tablist">
+          <button type="button" class="editor-tab-btn active" data-tab="filter" role="tab" aria-selected="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <span>Filter</span>
+          </button>
+
+          <button type="button" class="editor-tab-btn" data-tab="sticker" role="tab" aria-selected="false">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/>
+            </svg>
+            <span>Stiker</span>
+          </button>
+
+          <button type="button" class="editor-tab-btn" data-tab="draw" role="tab" aria-selected="false">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+              <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+              <path d="M2 2l7.586 7.586"/>
+              <circle cx="11" cy="11" r="2"/>
+            </svg>
+            <span>Coretan</span>
+          </button>
+        </div>
+
+        <!-- Kontainer Panel -->
+        <div class="editor-panels-container">
+          
+          <!-- Panel 1: Filter -->
+          <div id="panel-filter" class="editor-panel panel-active" role="tabpanel">
+            <div id="filter-carousel" class="filter-carousel-track">
+              <!-- Pratinjau thumbnail filter diisi dinamis oleh JS -->
+            </div>
+          </div>
+
+          <!-- Panel 2: Stiker -->
+          <div id="panel-sticker" class="editor-panel" role="tabpanel">
+            <div class="sticker-container-wrap">
+              <div class="sticker-toolbar">
+                <span class="sticker-helper-text">Geser / cubit 2 jari / gunakan tombol:</span>
+                <div class="sticker-actions-group" style="display: flex; gap: 6px; flex-wrap: wrap;">
+                  <button id="btn-rotate-sticker" type="button" class="btn-pill btn-secondary" style="padding: 4px 10px; font-size: 0.78rem;" title="Putar stiker terpilih">
+                    🔄 Putar
+                  </button>
+                  <button id="btn-scale-up-sticker" type="button" class="btn-pill btn-secondary" style="padding: 4px 10px; font-size: 0.78rem;" title="Perbesar stiker">
+                    ➕ Zoom In
+                  </button>
+                  <button id="btn-scale-down-sticker" type="button" class="btn-pill btn-secondary" style="padding: 4px 10px; font-size: 0.78rem;" title="Perkecil stiker">
+                    ➖ Zoom Out
+                  </button>
+                  <button id="btn-delete-sticker" type="button" class="btn-pill" style="padding: 4px 10px; font-size: 0.78rem;" title="Hapus stiker terpilih">
+                    🗑️ Hapus
+                  </button>
+                  <button id="btn-clear-stickers" type="button" class="btn-pill btn-secondary" style="padding: 4px 10px; font-size: 0.78rem;" title="Hapus semua stiker">
+                    Bersihkan
+                  </button>
+                </div>
+              </div>
+              <div id="sticker-grid" class="sticker-grid-scroll">
+                <!-- Daftar stiker diisi dinamis oleh JS -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 3: Coretan Kuas -->
+          <div id="panel-draw" class="editor-panel" role="tabpanel">
+            <div class="draw-panel-content">
+              <!-- Baris Atas: Pilihan Mode Kuas / Penghapus / Undo / Clear -->
+              <div class="draw-tools-row">
+                <div class="tool-group">
+                  <button id="btn-brush-mode" type="button" class="btn-pill btn-secondary active" style="padding: 6px 14px; font-size: 0.85rem;">
+                    🖌️ Kuas
+                  </button>
+                  <button id="btn-eraser-mode" type="button" class="btn-pill btn-secondary" style="padding: 6px 14px; font-size: 0.85rem;">
+                    🧹 Hapus
+                  </button>
+                </div>
+
+                <div class="tool-group">
+                  <button id="btn-draw-undo" type="button" class="icon-btn" style="width: 36px; height: 36px; font-size: 1rem; color: var(--color-text-dark); background: #FFF;" title="Undo Coretan">
+                    ↩️
+                  </button>
+                  <button id="btn-draw-clear" type="button" class="icon-btn" style="width: 36px; height: 36px; font-size: 1rem; color: var(--color-text-dark); background: #FFF;" title="Bersihkan Semua Coretan">
+                    🗑️
+                  </button>
+                </div>
+              </div>
+
+              <!-- Baris Bawah: Palet Warna & Ukuran Kuas -->
+              <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+                <div id="palette-colors" class="palette-dots-track">
+                  <!-- Pilihan warna diisi dinamis oleh JS -->
+                </div>
+                <div id="brush-sizes" class="brush-sizes-track">
+                  <!-- Pilihan ukuran diisi dinamis oleh JS -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===================================================================
+         4. LAYAR HASIL & UPLOAD (QR Code + Google Drive)
+         =================================================================== -->
+    <section id="result-screen" class="screen" aria-label="Layar Hasil Foto & Berbagi">
+      <div class="result-container">
+        
+        <!-- Pratinjau Foto Final -->
+        <div class="result-img-box">
+          <img id="result-preview-img" src="" alt="Pratinjau Hasil Foto Gathering" />
+        </div>
+
+        <!-- Kartu Aksi & Status -->
+        <div class="result-card-wrap">
+
+          <!-- Kartu Loading Upload -->
+          <div id="upload-loading-card" class="loading-box">
+            <div class="upload-spinner"></div>
+            <h3 style="font-family: var(--font-display); font-size: 1.3rem;">Sedang Memproses Fotomu...</h3>
+            <p id="upload-status-text" style="font-size: 0.9rem; color: var(--color-text-muted);">Menyiapkan komposit gambar...</p>
+            <div class="progress-bar-bg">
+              <div id="upload-progress-fill"></div>
+            </div>
+          </div>
+
+          <!-- Kartu Sukses Upload Google Drive -->
+          <div id="upload-success-card" class="success-box hidden">
+            <div class="success-badge-title">
+              <span>✨ Foto Siap Diunduh!</span>
+            </div>
+
+            <!-- Tampilan QR Code -->
+            <div class="qr-box-card">
+              <div id="qr-code-display"></div>
+              <p class="qr-scan-label">📲 Scan untuk unduh fotomu</p>
+            </div>
+
+            <div class="result-actions">
+              <button id="btn-download-direct" type="button" class="btn-pill btn-primary" style="width: 100%;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                </svg>
+                <span>Unduh Langsung</span>
+              </button>
+
+              <button id="btn-foto-lagi" type="button" class="btn-pill btn-secondary" style="width: 100%;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                  <circle cx="12" cy="13" r="4"></circle>
+                </svg>
+                <span>Foto Lagi</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Kartu Fallback / Gagal Upload -->
+          <div id="upload-error-card" class="error-box hidden">
+            <h3 class="error-title">⚠️ Info Penyimpanan Cloud</h3>
+            <p id="upload-error-desc" class="error-desc">
+              Foto belum terhubung ke Google Drive. Kamu tetap bisa menyimpan langsung foto ke perangkatmu!
+            </p>
+
+            <div class="result-actions">
+              <button id="btn-download-fallback" type="button" class="btn-pill btn-primary" style="width: 100%;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                </svg>
+                <span>Unduh Foto Sekarang</span>
+              </button>
+
+              <button id="btn-retry-upload" type="button" class="btn-pill btn-secondary" style="width: 100%;">
+                <span>Coba Lagi Upload</span>
+              </button>
+
+              <button id="btn-foto-lagi-fallback" type="button" class="btn-pill btn-secondary" style="width: 100%;">
+                <span>Foto Lagi</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /#app-root -->
+
+
+  <!-- ===================================================================
+       MODAL PERINGATAN KIOSK (AUTO RESET 60 DETIK)
+       =================================================================== -->
+  <div id="kiosk-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="kiosk-title">
+    <div class="modal-card">
+      <h3 id="kiosk-title" style="font-family: var(--font-display); font-size: 1.4rem;">Masih di sini?</h3>
+      <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-top: 6px;">
+        Layar akan kembali ke awal secara otomatis dalam:
+      </p>
+      <div id="kiosk-countdown-number" class="modal-countdown-num">10</div>
+      <button id="btn-cancel-kiosk" type="button" class="btn-pill btn-primary" style="width: 100%;">
+        Tetap di Sini
+      </button>
+    </div>
+  </div>
+
+
+  <!-- Library QR Code Lokal (dengan Fallback CDN jika diperlukan) -->
+  <script src="js/vendor/qrcode.min.js"></script>
+  <script>
+    if (typeof window.qrcode === 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js';
+      document.head.appendChild(script);
+    }
+  </script>
+
+  <!-- Script Aplikasi Utama Standalone Bundle (Kompatibel file:// dan http://) -->
+  <script src="js/bundle.js?v=6"></script>
+</body>
+</html>
